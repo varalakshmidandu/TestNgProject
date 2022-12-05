@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5082" started-at="2022-12-05T06:19:54Z" finished-at="2022-12-05T06:19:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5082" started-at="2022-12-05T06:19:54Z" finished-at="2022-12-05T06:19:59Z">
+      <class name="test.AddCategoryTest">
+        <test-method status="PASS" signature="addCategory()[pri:1, instance:test.AddCategoryTest@29774679]" name="addCategory" duration-ms="2793" started-at="2022-12-05T00:19:54Z" finished-at="2022-12-05T00:19:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCategory -->
+        <test-method status="PASS" signature="duplicateItems()[pri:2, instance:test.AddCategoryTest@29774679]" name="duplicateItems" duration-ms="180" started-at="2022-12-05T00:19:57Z" finished-at="2022-12-05T00:19:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duplicateItems -->
+        <test-method status="PASS" signature="validateMonths()[pri:3, instance:test.AddCategoryTest@29774679]" name="validateMonths" duration-ms="2097" started-at="2022-12-05T00:19:57Z" finished-at="2022-12-05T00:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMonths -->
+      </class> <!-- test.AddCategoryTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
