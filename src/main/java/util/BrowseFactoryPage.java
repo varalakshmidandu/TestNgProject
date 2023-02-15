@@ -17,8 +17,8 @@ public class BrowseFactoryPage {
 
 	public static WebDriver init() 
 	{
-		System.setProperty("webdriver.chrome.driver", "Drivers\\chromedriver.exe");
-		//WebDriverManager.chromedriver().setup();
+		//System.setProperty("webdriver.chrome.driver", "Drivers\\chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		
 		driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
