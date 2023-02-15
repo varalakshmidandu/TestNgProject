@@ -5,8 +5,9 @@
     <classes>
       <class name="test.AddCategoryTest">
         <methods>
-          <include name="TC1"/>
-          <include name="TC2"/>
+          <include name="validateMonths"/>
+          <include name="addCategory"/>
+          <include name="duplicateItems"/>
         </methods>
       </class> <!-- test.AddCategoryTest -->
     </classes>

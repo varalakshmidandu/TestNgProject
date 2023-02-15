@@ -78,9 +78,9 @@ public class AddCategoryTest {
 		//actualMonths.get(i).getText();
 	    System.out.println("Actual Months :" + actualMonths.get(i)+ " --> "+ "Expected Months :" + expectecMonths.get(i) );
 		
-		//Assert.assertEquals(actualMonths.get(i), expectecMonths.get(i));
-		Assert.assertTrue(actualMonths.get(i).equals(expectecMonths.get(i)));
-		
+		Assert.assertEquals(actualMonths.get(i), expectecMonths.get(i)," month not available");
+		//Assert.assertTrue(actualMonths.get(i).equals(expectecMonths.get(i)));
+	
 		 }
 //}
 	}

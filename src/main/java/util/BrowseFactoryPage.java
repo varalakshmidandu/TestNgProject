@@ -5,6 +5,8 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class BrowseFactoryPage {
 
 	
@@ -16,6 +18,8 @@ public class BrowseFactoryPage {
 	public static WebDriver init() 
 	{
 		System.setProperty("webdriver.chrome.driver", "Drivers\\chromedriver.exe");
+		//WebDriverManager.chromedriver().setup();
+		
 		driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.get(url);
